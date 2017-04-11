@@ -2,25 +2,6 @@
 
 [< Back to the workshop](README.md)
 
-<style>
-/* stolen from my friends at MDN */
-:target {
-  box-shadow: 0.2em 0.2em 0.3em #888;
-}
-
-:target:before {
-  font:           70% Arial,"Nimbus Sans L",sans-serif !important;
-  content:        "\25ba";  /* ► */
-  color:          red;
-  background:     gold;
-  border:         solid thin;
-  padding-left:   1px;
-  display:        inline-block;
-  margin-right:   0.13em;
-  vertical-align: 20%;
-}
-</style>
-
 ## Glossary
 
 <dl>
