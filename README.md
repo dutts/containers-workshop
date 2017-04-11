@@ -6,8 +6,8 @@
 2. [Setup your system](setup.md)
 3. <a href="https://github.com/jonathanKingston/containers-workshop" target="_blank">Fork and clone this Repo</a>
     - This repo contains examples that you can hack with in the `demos` directory:
-    - [Assignment demo](demos/containers-assign/README.md)
-    - [Sidebar demo](demos/sidebar/README.md)
+    - [Assignment demo](demos/containers-assign)
+    - [Sidebar demo](demos/sidebar)
 4. [Running and debugging your extensions](debugging.md)
 5. [Making your own extension](your-own.md)
 
