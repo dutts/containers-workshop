@@ -26,7 +26,7 @@
 <dl>
   <dt id="sdk">SDK</dt>
   <dd>
-    SDK addons are the exising addon format that is soon to be removed from Firefox, these were very powerful but caused issues in updating Firefox.
+    SDK addons are the existing addon format that is soon to be removed from Firefox, these were very powerful but caused issues in updating Firefox.
   </dd>
 
   <dt id="web-extension">Web Extension</dt>
@@ -40,7 +40,7 @@
   <dd>Is the name that is used for storage isolation in Web Extensions, the name comes from the <a href="https://developer.chrome.com/extensions/cookies#method-getAllCookieStores">Chrome extensions</a> and they use this for separating between normal and incognito mode.
 In Firefox we use this for default, private mode and now <code>firefox-container-{container-id}</code></dd>
 
-  <dt id="contextual-identities">Contextual Identites</dt>
+  <dt id="contextual-identities">Contextual Identities</dt>
 
   <dd>Consider that containers are the visual experience of how "Contextual Identities" are used within the platform. When you create a new Container, it is represented by a new contextual identity.</dd>
 

@@ -29,9 +29,13 @@ Once loaded you should see:
 
 By default the debugger runs in the background page of your extension, if you don't have a background page and just a page you will be getting a "generated background page" with your background scripts included.
 
-To change the debugger to focus on browser actions or other things, use the following:
+To change the debugger to focus on browser actions or sidebar pages, use the following:
 
 ![](images/extensions/generated-background.png)
+
+You can then modify the pages like a normal web page using the inspector:
+
+![](images/extensions/inspector.png)
 
 
 [< Back to the workshop](README.md)

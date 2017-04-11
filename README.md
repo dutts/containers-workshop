@@ -1,12 +1,17 @@
 # Containers Workshop *by* [@KingstonTime](https://twitter.com/KingstonTime)
 
+![](images/intro.gif)
+
 1. [Read Containers background first](background.md)
 2. [Setup your system](setup.md)
 3. <a href="https://github.com/jonathanKingston/containers-workshop" target="_blank">Fork and clone this Repo</a>
     - This repo contains examples that you can hack with in the `demos` directory:
     - [Assignment demo](demos/containers-assign/README.md)
+    - [Sidebar demo](demos/sidebar/README.md)
 4. [Running and debugging your extensions](debugging.md)
 5. [Making your own extension](your-own.md)
+
+[Glossary of terms](glossary.md)
 
 ## Further resources
 

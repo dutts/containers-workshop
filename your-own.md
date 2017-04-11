@@ -11,13 +11,13 @@ To make an extension:
 
 A basic example looks like this:
 
-<code style="white-space: pre; display: block;">
+```
 {
   "manifest_version": 2,
   "name": "My Extension",
   "version": "1.0",
 
-  "<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/background">background</a>": {
+  "background": {
     "scripts": ["jquery.js", "my-background.js"]
   },
 
@@ -30,15 +30,22 @@ A basic example looks like this:
     "default_popup": "popup/index.html"
   },
 
-  "<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/permissions">permissions</a>": [
-    // Put permissions here
+  "permissions": [
+    // Put permissions here see: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/permissions
     "webRequest",
     "*://developer.mozilla.org/*",
     "tabs"
   ],
 
 }
-</code>
+```
+
+[Manifest.json](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json) key documentation:
+- "[background](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/background)"
+- "[permissions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/permissions)"
+- "[browser_action](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/browser_action)"
+
+Other resources:
 
 - [Tutorial on your first extension](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension)
 - [A big list of example extensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples)
@@ -90,7 +97,7 @@ To use the [tabs API](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/
 or
 - A url to match on or alternatively "&lt;all_urls&gt;"
 
-We can query for the container on the tab when both of the following are true:
+We can also query for the container when the following are true:
 - "cookies" permission
 - `privacy.userContext.enabled` is set to true. (Check in about:config)
 
@@ -103,10 +110,16 @@ browser.tabs.onActivated.addListener((activeInfo) => {
 });
 ```
 
-The console log will be printed into the extension debugger:
+The console log will be printed into the extension [debugger](debugger.md):
 ```
 The current tab has the following cookie store: firefox-container-1
 ```
+
+### Sidebars
+
+Another one of the features we have added is [Sidebars](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Sidebars).
+
+
 
 ## Make it bleeding
 
