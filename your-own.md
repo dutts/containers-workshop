@@ -119,7 +119,23 @@ The current tab has the following cookie store: firefox-container-1
 
 Another one of the features we have added is [Sidebars](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Sidebars).
 
+### Other new extension features
 
+- [Firefox 52](https://blog.mozilla.org/addons/2016/11/18/webextensions-in-firefox-52/)
+  - Creating new tabs in a container
+- [Firefox 53](https://blog.mozilla.org/addons/2017/01/25/webextensions-in-firefox-53/)
+  - contextualIdentities api added for querying and adding containers
+  - Sync of extension storage
+  - Adding context menus to more places
+  - Allow insertion of 'user' CSS to a page
+- [Firefox 54](https://blog.mozilla.org/addons/2017/03/13/webextensions-firefox-54/)
+  - Sidebars
+  - Override about:newtab
+  - Privacy API to control privacy preferences
+  - Protocol handling to register `irc://` etc
+  - Devtools apis
+- **Firefox 55**
+  - [Proxy API](https://github.com/mdn/webextensions-examples/pull/205/commits/5a4deba814e521ded08970d10f4023fff5e4daa1)
 
 ## Make it bleeding
 
