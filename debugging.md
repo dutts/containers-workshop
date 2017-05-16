@@ -38,4 +38,11 @@ You can then modify the pages like a normal web page using the inspector:
 ![](images/extensions/inspector.png)
 
 
+To keep popups actions open always click on the following icon:
+
+![](images/extensions/disable-popup-autohide.png)
+
+*This is useful when debugging browser actions or context menus, click **esc** to close the popups*
+
+
 [< Back to the workshop](README.md)
